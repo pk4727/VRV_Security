@@ -1,6 +1,4 @@
-# VRV_Security's
-
-Log Analysis Assignment:
+# VRV_Security's (Log Analysis Assignment)
 This repository contains scripts and resources for analyzing server logs to extract meaningful insights such as request counts, most frequently accessed endpoints, and suspicious activity detection.
 
 Project Structure:
@@ -28,13 +26,13 @@ How to Run:
 2. Prepare the Log File( Ensure sample.log is in the same directory as the Python scripts. )
 3. Run the Script
     Execute the primary script:
-    python VRV_Security’s_Assignment.py
-    or
+    python VRV_Security’s_Assignment.py    
+    or    
     python VRV_Security’s_Assignment_without_comments.py
 4. Check the Results
     The analysis results will be saved in log_analysis_results.csv and also displayed in the terminal.
 
 Features:
-    1. Request Counting:- Calculates the number of requests made by each IP address.
+    1. Request Counting:- Calculates the number of requests made by each IP address.    
     2. Endpoint Analysis:- Identifies the most frequently accessed endpoint and its access count.
     3. Suspicious Activity Detection:- Detects IPs with excessive failed login attempts (threshold set at 10 by default).
